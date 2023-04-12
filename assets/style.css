@@ -6,10 +6,12 @@
 
 nav ul {
     list-style-type: none;
-    text-align: center;
+    text-align: right;
     padding-bottom: 15px;
-    border-bottom: 2px solid black;
-    position: sticky;
+}
+
+h1 {
+    text-align: center;
 }
 
 .JLK {
@@ -19,9 +21,13 @@ nav ul {
 
 aside {
     float: left;
-    
+    padding-right: 2%;    
 }
-.placeholder {
-    height: 200px;
+
+
+.portrait {
     width: 200px;
+    border-radius: 25%;
 }
+
+

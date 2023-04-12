@@ -1,0 +1,27 @@
+
+* {
+    background-color: aquamarine;
+}
+
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+    position: sticky;
+}
+
+.JLK {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+aside {
+    float: left;
+    
+}
+.placeholder {
+    height: 200px;
+    width: 200px;
+}

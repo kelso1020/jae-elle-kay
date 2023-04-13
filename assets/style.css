@@ -3,15 +3,15 @@
     background-color: aquamarine;
 }
 
-
-nav ul {
-    list-style-type: none;
-    text-align: right;
-    padding-bottom: 15px;
+h1 {
+  display: inline-block;
+    margin-left: 50px;
 }
 
-h1 {
-    text-align: center;
+header ul {
+    float: right;
+    font-size: 20px;
+    list-style-type: none;
 }
 
 .JLK {
@@ -28,6 +28,14 @@ aside {
 .portrait {
     width: 200px;
     border-radius: 25%;
+}
+
+p {
+    margin: 10px 200px 10px 0;
+}
+
+div img {
+    max-height: 200px;
 }
 
 

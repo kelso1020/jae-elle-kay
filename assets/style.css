@@ -1,27 +1,69 @@
 
 * {
     background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
-nav ul {
-    list-style-type: none;
+header {
     text-align: center;
-    padding-bottom: 15px;
-    border-bottom: 2px solid black;
-    position: sticky;
 }
 
+header a {
+    margin: 0 20px;
+}
+
+/* ensures custom banner image remains the size of the webpage */
 .JLK {
     max-height: 100%;
     max-width: 100%;
 }
 
+/* justifies aside to left side of page */
 aside {
     float: left;
-    
+    padding-right: 2%;    
 }
-.placeholder {
-    height: 200px;
+
+/* sized, rounded corners, and added a shadow to my picture */
+.portrait {
     width: 200px;
+    border-radius: 25%;
+    box-shadow: 0px 5px 10px 0px black; 
 }
+
+#about-me p {
+    margin: 10px 200px 10px 0;
+}
+
+/* ensures both screenshots inside div stack one on top of the other instead of moving to the side in a row */
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+div img {
+    max-height: 200px;
+    margin: 10px 0;
+    box-shadow: 0px 5px 10px 0px black; 
+}
+
+/* adds a blue shadow when mouse hovers on screenshot */
+div img:hover {
+    box-shadow: 2px 7px 12px 2px rgb(47, 224, 255);
+}
+
+/* when the webpage is sized down, my photo disappears and the remaining sections realign to make up for the new space */
+@media (max-width: 768px) {
+      .portrait {
+        display: none;
+    }
+    #about-me {
+        margin: 0 75px;
+    }
+    #work {
+        margin: 0 75px;
+    }
+   
+}
+
+

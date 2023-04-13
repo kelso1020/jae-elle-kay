@@ -3,15 +3,12 @@
     background-color: aquamarine;
 }
 
-h1 {
-  display: inline-block;
-    margin-left: 50px;
+header {
+    text-align: center;
 }
 
-header ul {
-    float: right;
-    font-size: 20px;
-    list-style-type: none;
+a {
+    margin: 0 20px;
 }
 
 .JLK {
@@ -31,7 +28,7 @@ aside {
     box-shadow: 0px 5px 10px 0px black; 
 }
 
-p {
+#about-me p {
     margin: 10px 200px 10px 0;
 }
 
@@ -54,6 +51,12 @@ div img:hover {
 @media (max-width: 768px) {
       .portrait {
         display: none;
+    }
+    #about-me {
+        margin: 0 75px;
+    }
+    #work {
+        margin: 0 75px;
     }
    
 }
